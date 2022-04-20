@@ -13,6 +13,10 @@ body {
   color: #4e4e4e;
 }
 
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -28,7 +32,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 a:hover {
-  color: #0078ff;
+  color: #ffd500;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -513,7 +517,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #fff;
+  background-color: #ffd500;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -521,13 +525,13 @@ a:hover {
 .navbar li:hover > a:before,
 .navbar .active:before {
   visibility: visible;
-  width: 80%;
+  width: 100%;
 }
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #fff;
+  color: #ffd500;
 }
 .navbar .dropdown ul {
   display: block;
